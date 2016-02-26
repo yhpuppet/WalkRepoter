@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DACDC6460DF7B241F53EBD8 /* Pods_WalkReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541E8C972E1C2653843DAE57 /* Pods_WalkReporter.framework */; };
+		841AE5531C7C472C0003FA20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AE5521C7C472C0003FA20 /* AppDelegate.swift */; };
+		841AE55A1C7C472C0003FA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841AE5591C7C472C0003FA20 /* Assets.xcassets */; };
+		841AE55D1C7C472C0003FA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841AE55B1C7C472C0003FA20 /* LaunchScreen.storyboard */; };
+		841AE5681C7C472C0003FA20 /* WalkReporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AE5671C7C472C0003FA20 /* WalkReporterTests.swift */; };
+		841AE5731C7C472C0003FA20 /* WalkReporterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AE5721C7C472C0003FA20 /* WalkReporterUITests.swift */; };
+		843916BA1C7ED37700D2A4F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843916B91C7ED37700D2A4F7 /* MapKit.framework */; };
+		843916C21C7EE01F00D2A4F7 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843916C11C7EE01F00D2A4F7 /* RootTabBarController.swift */; };
+		843916C41C7EE09400D2A4F7 /* WalkingRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843916C31C7EE09400D2A4F7 /* WalkingRouteViewController.swift */; };
+		843916C61C7EE17B00D2A4F7 /* UserHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843916C51C7EE17B00D2A4F7 /* UserHomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841AE5641C7C472C0003FA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841AE5471C7C472C0003FA20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841AE54E1C7C472C0003FA20;
+			remoteInfo = WalkReporter;
+		};
+		841AE56F1C7C472C0003FA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841AE5471C7C472C0003FA20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841AE54E1C7C472C0003FA20;
+			remoteInfo = WalkReporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		541E8C972E1C2653843DAE57 /* Pods_WalkReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalkReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841AE54F1C7C472C0003FA20 /* WalkReporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkReporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841AE5521C7C472C0003FA20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		841AE5591C7C472C0003FA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841AE55C1C7C472C0003FA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841AE55E1C7C472C0003FA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841AE5631C7C472C0003FA20 /* WalkReporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkReporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841AE5671C7C472C0003FA20 /* WalkReporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkReporterTests.swift; sourceTree = "<group>"; };
+		841AE5691C7C472C0003FA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841AE56E1C7C472C0003FA20 /* WalkReporterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkReporterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841AE5721C7C472C0003FA20 /* WalkReporterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkReporterUITests.swift; sourceTree = "<group>"; };
+		841AE5741C7C472C0003FA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843916B91C7ED37700D2A4F7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		843916C11C7EE01F00D2A4F7 /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootTabBarController.swift; path = Controller/RootTabBarController.swift; sourceTree = "<group>"; };
+		843916C31C7EE09400D2A4F7 /* WalkingRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WalkingRouteViewController.swift; path = Controller/WalkingRouteViewController.swift; sourceTree = "<group>"; };
+		843916C51C7EE17B00D2A4F7 /* UserHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserHomeViewController.swift; path = Controller/UserHomeViewController.swift; sourceTree = "<group>"; };
+		E41F72C10DFCB4C1D9C1ABD4 /* Pods-WalkReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkReporter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WalkReporter/Pods-WalkReporter.debug.xcconfig"; sourceTree = "<group>"; };
+		E50B04115076C1BC6F458472 /* Pods-WalkReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkReporter.release.xcconfig"; path = "Pods/Target Support Files/Pods-WalkReporter/Pods-WalkReporter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841AE54C1C7C472C0003FA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843916BA1C7ED37700D2A4F7 /* MapKit.framework in Frameworks */,
+				2DACDC6460DF7B241F53EBD8 /* Pods_WalkReporter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841AE5601C7C472C0003FA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841AE56B1C7C472C0003FA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841AE5461C7C472C0003FA20 = {
+			isa = PBXGroup;
+			children = (
+				841AE5511C7C472C0003FA20 /* WalkReporter */,
+				841AE5661C7C472C0003FA20 /* WalkReporterTests */,
+				841AE5711C7C472C0003FA20 /* WalkReporterUITests */,
+				841AE5501C7C472C0003FA20 /* Products */,
+				A7BAAA5CD2769BD733AD9CCA /* Pods */,
+				B6454552EE9947C81BF32B74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		841AE5501C7C472C0003FA20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841AE54F1C7C472C0003FA20 /* WalkReporter.app */,
+				841AE5631C7C472C0003FA20 /* WalkReporterTests.xctest */,
+				841AE56E1C7C472C0003FA20 /* WalkReporterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841AE5511C7C472C0003FA20 /* WalkReporter */ = {
+			isa = PBXGroup;
+			children = (
+				843916BF1C7EDCEB00D2A4F7 /* AppGeneral */,
+				843916BE1C7EDCE300D2A4F7 /* Utility */,
+				843916BD1C7ED64700D2A4F7 /* Model */,
+				843916BC1C7ED63E00D2A4F7 /* Controller */,
+				843916BB1C7ED63900D2A4F7 /* View */,
+				841AE5521C7C472C0003FA20 /* AppDelegate.swift */,
+				841AE5591C7C472C0003FA20 /* Assets.xcassets */,
+				841AE55B1C7C472C0003FA20 /* LaunchScreen.storyboard */,
+				841AE55E1C7C472C0003FA20 /* Info.plist */,
+			);
+			path = WalkReporter;
+			sourceTree = "<group>";
+		};
+		841AE5661C7C472C0003FA20 /* WalkReporterTests */ = {
+			isa = PBXGroup;
+			children = (
+				841AE5671C7C472C0003FA20 /* WalkReporterTests.swift */,
+				841AE5691C7C472C0003FA20 /* Info.plist */,
+			);
+			path = WalkReporterTests;
+			sourceTree = "<group>";
+		};
+		841AE5711C7C472C0003FA20 /* WalkReporterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841AE5721C7C472C0003FA20 /* WalkReporterUITests.swift */,
+				841AE5741C7C472C0003FA20 /* Info.plist */,
+			);
+			path = WalkReporterUITests;
+			sourceTree = "<group>";
+		};
+		843916BB1C7ED63900D2A4F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		843916BC1C7ED63E00D2A4F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				843916C11C7EE01F00D2A4F7 /* RootTabBarController.swift */,
+				843916C51C7EE17B00D2A4F7 /* UserHomeViewController.swift */,
+				843916C31C7EE09400D2A4F7 /* WalkingRouteViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		843916BD1C7ED64700D2A4F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		843916BE1C7EDCE300D2A4F7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		843916BF1C7EDCEB00D2A4F7 /* AppGeneral */ = {
+			isa = PBXGroup;
+			children = (
+				843916C01C7EDCF200D2A4F7 /* AppDefine */,
+			);
+			name = AppGeneral;
+			sourceTree = "<group>";
+		};
+		843916C01C7EDCF200D2A4F7 /* AppDefine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AppDefine;
+			sourceTree = "<group>";
+		};
+		A7BAAA5CD2769BD733AD9CCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E41F72C10DFCB4C1D9C1ABD4 /* Pods-WalkReporter.debug.xcconfig */,
+				E50B04115076C1BC6F458472 /* Pods-WalkReporter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6454552EE9947C81BF32B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843916B91C7ED37700D2A4F7 /* MapKit.framework */,
+				541E8C972E1C2653843DAE57 /* Pods_WalkReporter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841AE54E1C7C472C0003FA20 /* WalkReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841AE5771C7C472C0003FA20 /* Build configuration list for PBXNativeTarget "WalkReporter" */;
+			buildPhases = (
+				2FB8024F818FAAFF2A4E57CC /* Check Pods Manifest.lock */,
+				841AE54B1C7C472C0003FA20 /* Sources */,
+				841AE54C1C7C472C0003FA20 /* Frameworks */,
+				841AE54D1C7C472C0003FA20 /* Resources */,
+				377D3777A13FBF1B2398A247 /* Embed Pods Frameworks */,
+				467880F2466E3BF2D1CDD7BF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalkReporter;
+			productName = WalkReporter;
+			productReference = 841AE54F1C7C472C0003FA20 /* WalkReporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841AE5621C7C472C0003FA20 /* WalkReporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841AE57A1C7C472C0003FA20 /* Build configuration list for PBXNativeTarget "WalkReporterTests" */;
+			buildPhases = (
+				841AE55F1C7C472C0003FA20 /* Sources */,
+				841AE5601C7C472C0003FA20 /* Frameworks */,
+				841AE5611C7C472C0003FA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841AE5651C7C472C0003FA20 /* PBXTargetDependency */,
+			);
+			name = WalkReporterTests;
+			productName = WalkReporterTests;
+			productReference = 841AE5631C7C472C0003FA20 /* WalkReporterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841AE56D1C7C472C0003FA20 /* WalkReporterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841AE57D1C7C472C0003FA20 /* Build configuration list for PBXNativeTarget "WalkReporterUITests" */;
+			buildPhases = (
+				841AE56A1C7C472C0003FA20 /* Sources */,
+				841AE56B1C7C472C0003FA20 /* Frameworks */,
+				841AE56C1C7C472C0003FA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841AE5701C7C472C0003FA20 /* PBXTargetDependency */,
+			);
+			name = WalkReporterUITests;
+			productName = WalkReporterUITests;
+			productReference = 841AE56E1C7C472C0003FA20 /* WalkReporterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841AE5471C7C472C0003FA20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vincent Yang";
+				TargetAttributes = {
+					841AE54E1C7C472C0003FA20 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 67BL69GNQK;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					841AE5621C7C472C0003FA20 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 841AE54E1C7C472C0003FA20;
+					};
+					841AE56D1C7C472C0003FA20 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 841AE54E1C7C472C0003FA20;
+					};
+				};
+			};
+			buildConfigurationList = 841AE54A1C7C472C0003FA20 /* Build configuration list for PBXProject "WalkReporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841AE5461C7C472C0003FA20;
+			productRefGroup = 841AE5501C7C472C0003FA20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841AE54E1C7C472C0003FA20 /* WalkReporter */,
+				841AE5621C7C472C0003FA20 /* WalkReporterTests */,
+				841AE56D1C7C472C0003FA20 /* WalkReporterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841AE54D1C7C472C0003FA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841AE55D1C7C472C0003FA20 /* LaunchScreen.storyboard in Resources */,
+				841AE55A1C7C472C0003FA20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841AE5611C7C472C0003FA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841AE56C1C7C472C0003FA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FB8024F818FAAFF2A4E57CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		377D3777A13FBF1B2398A247 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalkReporter/Pods-WalkReporter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		467880F2466E3BF2D1CDD7BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalkReporter/Pods-WalkReporter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841AE54B1C7C472C0003FA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841AE5531C7C472C0003FA20 /* AppDelegate.swift in Sources */,
+				843916C41C7EE09400D2A4F7 /* WalkingRouteViewController.swift in Sources */,
+				843916C61C7EE17B00D2A4F7 /* UserHomeViewController.swift in Sources */,
+				843916C21C7EE01F00D2A4F7 /* RootTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841AE55F1C7C472C0003FA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841AE5681C7C472C0003FA20 /* WalkReporterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841AE56A1C7C472C0003FA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841AE5731C7C472C0003FA20 /* WalkReporterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841AE5651C7C472C0003FA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841AE54E1C7C472C0003FA20 /* WalkReporter */;
+			targetProxy = 841AE5641C7C472C0003FA20 /* PBXContainerItemProxy */;
+		};
+		841AE5701C7C472C0003FA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841AE54E1C7C472C0003FA20 /* WalkReporter */;
+			targetProxy = 841AE56F1C7C472C0003FA20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841AE55B1C7C472C0003FA20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841AE55C1C7C472C0003FA20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841AE5751C7C472C0003FA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841AE5761C7C472C0003FA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841AE5781C7C472C0003FA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41F72C10DFCB4C1D9C1ABD4 /* Pods-WalkReporter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WalkReporter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.vincent.WalkReporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		841AE5791C7C472C0003FA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50B04115076C1BC6F458472 /* Pods-WalkReporter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WalkReporter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.vincent.WalkReporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		841AE57B1C7C472C0003FA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WalkReporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.vincent.WalkReporterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkReporter.app/WalkReporter";
+			};
+			name = Debug;
+		};
+		841AE57C1C7C472C0003FA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WalkReporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.vincent.WalkReporterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkReporter.app/WalkReporter";
+			};
+			name = Release;
+		};
+		841AE57E1C7C472C0003FA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WalkReporterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.vincent.WalkReporterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WalkReporter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		841AE57F1C7C472C0003FA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WalkReporterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.vincent.WalkReporterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WalkReporter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841AE54A1C7C472C0003FA20 /* Build configuration list for PBXProject "WalkReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841AE5751C7C472C0003FA20 /* Debug */,
+				841AE5761C7C472C0003FA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841AE5771C7C472C0003FA20 /* Build configuration list for PBXNativeTarget "WalkReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841AE5781C7C472C0003FA20 /* Debug */,
+				841AE5791C7C472C0003FA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841AE57A1C7C472C0003FA20 /* Build configuration list for PBXNativeTarget "WalkReporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841AE57B1C7C472C0003FA20 /* Debug */,
+				841AE57C1C7C472C0003FA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841AE57D1C7C472C0003FA20 /* Build configuration list for PBXNativeTarget "WalkReporterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841AE57E1C7C472C0003FA20 /* Debug */,
+				841AE57F1C7C472C0003FA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841AE5471C7C472C0003FA20 /* Project object */;
+}
