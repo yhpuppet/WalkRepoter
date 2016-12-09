@@ -2,7 +2,7 @@
 //  WalkReporterUITests.swift
 //  WalkReporterUITests
 //
-//  Created by Vincent Yang on 16/2/23.
+//  Created by Vincent Yang on 16/12/9.
 //  Copyright © 2016年 Vincent Yang. All rights reserved.
 //
 
